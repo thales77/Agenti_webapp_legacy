@@ -180,7 +180,7 @@ class Client {
             }
 
             $conn = null;
-            return $list;
+            return json_encode($list);
         }
     }
      /**
